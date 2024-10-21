@@ -1,18 +1,19 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e7ff; /* Background color */
+    background-color: #4c5156; /* Background color */
+    margin: 0;
 }
 
 .container {
     text-align: center;
-    padding: 30px;
-    background-color: #ffffff; /* Background color for container */
-    border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    background-color: whitesmoke; /* Background color for container */
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 400px;
 }
@@ -21,7 +22,68 @@ body {
 h1 {
     font-size: 2.2em;
     margin-bottom: 20px;
-    color: #4a4a4a; /* Header color */
+    color: rgba(0, 0, 0, 0.76); /* Header color */
 }
 
 /* Add more styles here as needed */
+label {
+    font-size: 15px;
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+input[type="number"] {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #14c3de;
+    color: whi;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b46517;
+}
+
+#passwordOutput {
+    font-size: 15px;
+    margin-top: 15px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    word-break: break-all;
+    display: none;
+}
+
+#copyBtn {
+    display: none;
+    background-color: #b6d310;
+    color: whitesmoke;
+}
+
+#copyBtn.show {
+    display: inline-block;
+}
+
+#passwordOutput.show {
+    display: block;
+}
