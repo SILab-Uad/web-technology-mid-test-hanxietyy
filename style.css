@@ -20,8 +20,8 @@ body {
 
 /* TODO: Add styles for labels, inputs, buttons, and output text */
 h1 {
-    font-size: 2.2em;
-    margin-bottom: 20px;
+    font-size: 2.1em;
+    margin-bottom: 25px;
     color: rgba(0, 0, 0, 0.76); /* Header color */
 }
 
